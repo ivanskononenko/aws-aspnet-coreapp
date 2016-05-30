@@ -22,7 +22,7 @@ namespace aws_aspnet_coreapp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World 1.2!");
             });
         }
     }
